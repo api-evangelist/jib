@@ -1,11 +1,18 @@
 aid: jib
 name: Jib
 description: >-
-  Jib is a container image builder from Google that builds optimized Docker and OCI images for Java applications.
+  Jib is an open-source container image builder from Google that builds optimized Docker and OCI images for Java applications without requiring a Docker daemon or writing a Dockerfile. It is available as plugins for Maven and Gradle, and integrates directly into the Java build process to produce reproducible container images.
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
   - Containers
+  - Container Images
+  - Build Tools
+  - Java
+  - Maven
+  - Gradle
+  - Google
+  - Open Source
 url: >-
   https://raw.githubusercontent.com/api-evangelist/jib/refs/heads/main/apis.yml
 created: '2026-03-26'
@@ -15,14 +22,29 @@ apis:
   - aid: jib:jib
     name: Jib
     description: >-
-      Jib is a container image builder from Google that builds optimized Docker and OCI images for Java applications.
-    humanURL: https://github.com/api-evangelist/jib
+      Jib is an open-source container image builder from Google that builds optimized Docker and OCI images for Java applications without requiring a Docker daemon or writing a Dockerfile, available as Maven and Gradle plugins.
+    humanURL: https://github.com/GoogleContainerTools/jib
     tags:
       - Containers
-    properties: []
+      - Container Images
+      - Build Tools
+      - Java
+      - Maven
+      - Gradle
+    properties:
+      - type: Documentation
+        url: https://github.com/GoogleContainerTools/jib/blob/master/README.md
+      - type: Getting Started
+        url: https://github.com/GoogleContainerTools/jib/tree/master/jib-maven-plugin#quickstart
 common:
   - type: Website
-    url: https://github.com/api-evangelist/jib
+    url: https://github.com/GoogleContainerTools/jib
+  - type: Documentation
+    url: https://github.com/GoogleContainerTools/jib/blob/master/README.md
+  - type: Getting Started
+    url: https://github.com/GoogleContainerTools/jib/tree/master/jib-maven-plugin#quickstart
+  - type: GitHub Organization
+    url: https://github.com/GoogleContainerTools
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
