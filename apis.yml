@@ -5,13 +5,13 @@ description: >-
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Containers
-  - Container Images
   - Build Tools
+  - Container Images
+  - Containers
+  - Google
+  - Gradle
   - Java
   - Maven
-  - Gradle
-  - Google
   - Open Source
 url: >-
   https://raw.githubusercontent.com/api-evangelist/jib/refs/heads/main/apis.yml
@@ -25,12 +25,12 @@ apis:
       Jib is an open-source container image builder from Google that builds optimized Docker and OCI images for Java applications without requiring a Docker daemon or writing a Dockerfile, available as Maven and Gradle plugins.
     humanURL: https://github.com/GoogleContainerTools/jib
     tags:
-      - Containers
-      - Container Images
       - Build Tools
+      - Container Images
+      - Containers
+      - Gradle
       - Java
       - Maven
-      - Gradle
     properties:
       - type: Documentation
         url: https://github.com/GoogleContainerTools/jib/blob/master/README.md
