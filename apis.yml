@@ -34,16 +34,16 @@ apis:
     properties:
       - type: Documentation
         url: https://github.com/GoogleContainerTools/jib/blob/master/README.md
-      - type: Getting Started
+      - type: GettingStarted
         url: https://github.com/GoogleContainerTools/jib/tree/master/jib-maven-plugin#quickstart
 common:
   - type: Website
     url: https://github.com/GoogleContainerTools/jib
   - type: Documentation
     url: https://github.com/GoogleContainerTools/jib/blob/master/README.md
-  - type: Getting Started
+  - type: GettingStarted
     url: https://github.com/GoogleContainerTools/jib/tree/master/jib-maven-plugin#quickstart
-  - type: GitHub Organization
+  - type: GitHubOrganization
     url: https://github.com/GoogleContainerTools
 maintainers:
   - FN: Kin Lane
