@@ -3,7 +3,19 @@ name: Jib
 description: >-
   Jib is an open-source container image builder from Google that builds optimized Docker and OCI images for Java applications without requiring a Docker daemon or writing a Dockerfile. It is available as plugins for Maven and Gradle, and integrates directly into the Java build process to produce reproducible container images.
 type: Index
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: freemium
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Freemium
+  confidence: medium
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jib.png
 tags:
   - Build Tools
   - Container Images
