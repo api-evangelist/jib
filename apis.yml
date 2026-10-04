@@ -35,7 +35,7 @@ tags:
   - Gradle
   - Java
   - Maven
-  - Open-Source
+  - Open Source
 tags_raw:
   - Build Tools
   - Container Images
@@ -45,6 +45,7 @@ tags_raw:
   - Java
   - Maven
   - Open Source
+  - Open-Source
 url: >-
   https://raw.githubusercontent.com/api-evangelist/jib/refs/heads/main/apis.yml
 created: '2026-03-26'
